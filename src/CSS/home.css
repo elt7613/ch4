@@ -1,0 +1,766 @@
+@import url('https://fonts.cdnfonts.com/css/anime-ace');
+
+a{
+  text-decoration: none;
+}
+.section-1 {
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.portfolio-card {
+  flex-basis: 30%; /* Set the width of each card to 30% of the parent */
+  flex-grow: 1; /* Make the cards flexible */
+  margin: 10px; /* Add some margin between the cards */
+}
+
+
+/* Info Card 1 */
+.section-1 .info-card-1 {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.section-1 .portfolio-card {
+  position: relative;
+  transition: all 0.5s ease;
+}
+.section-1  .image-container {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: all 0.5s ease;
+}
+.section-1 .info-1 {
+  background-image: url('/src/Files/home/characterInfo/infoImage1.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #44a4d0d7;
+  transition: all 0.5s ease;
+}
+.section-1 .info-card-1 .empty-space {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.section-1  .inner-card{
+  position: relative;
+  left: -30px;
+  top: 370px;
+  width: 200px;
+  min-height: 70px;
+  border-radius: 40px;
+  padding: 20px;
+  backdrop-filter: blur(20px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(44, 41, 41, 0.25);
+  transition: all 0.5s ease;
+}
+.section-1 .character-name{
+  position: relative;
+  left: 12px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 550;
+  font-family: comic sans ms;
+}
+.section-1  .about-character{
+  position: relative;
+  left: 20px;
+  font-size: 1.01rem;
+  color: #eeeeeede;
+  font-family: comic sans ms;
+}
+.section-1 .info-card-1 .inner-card .empty-space-1 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  background-color: #13e1f059;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 .info-card-1 .inner-card .empty-space-2 {
+  position: absolute;
+  top: 7px;
+  left: 204px;
+  background-color: #13e1f0b2;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Info Card 2 */
+.section-1 .info-card-2 {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.section-1 .info-2 {
+  background-image: url('/src/Files/home/characterInfo/infoImage2.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #3b3b3b;
+  transition: all 0.5s ease;
+}
+.section-1 .info-card-2 .empty-space {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: #000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.section-1 .info-card-2 .inner-card .empty-space-1 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  background-color: #252424fb;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 .info-card-2 .inner-card .empty-space-2 {
+  position: absolute;
+  top: 7px;
+  left: 204px;
+  background-color: #0c0b0bb4;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Info Card 3 */
+.section-1 .info-card-3 {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.section-1 .info-3 {
+  background-image: url('/src/Files/home/characterInfo/infoImage3.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #a79b9bde;
+  transition: all 0.5s ease;
+}
+.section-1 .info-card-3 .empty-space {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+  align-items: center;
+}
+.section-1 .info-card-3 .inner-card .empty-space-1 {
+  position: absolute;
+  left: 0px;
+  background-color: #756a6ac2;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 .inner-card .empty-space-2 {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  background-color: #756a6af8;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*--- 320px ----*/
+@media screen and (min-width: 320px){
+  .swiper {
+    top: 30px;
+    width: 350px;
+    height: 500px;
+  }
+
+  .section-1 .portfolio-card {
+    width: 250px;
+  }
+  .section-1 .image-container{
+    height: 400px;
+  }
+  .section-1 .inner-card{
+    top: 310px;
+    left: -10px;
+    width: 160px;
+  }
+  .section-1 .character-name{
+    font-size: 1.5rem;
+  }
+  .section-1 .about-character{
+    font-size: 0.9rem;
+  }
+
+  /* Card 1 */
+  .section-1 .info-card-1 .empty-space{
+    top: -10px;
+    right: -6px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-1,
+  .section-1 .info-card-2 .inner-card .empty-space-1,
+  .section-1 .info-card-3 .inner-card .empty-space-1{
+    top: 40px;
+    width: 70px;
+    height: 70px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-2,
+  .section-1 .info-card-2 .inner-card .empty-space-2,
+  .section-1 .info-card-3 .inner-card .empty-space-2{
+    top: 6px;
+    left: 160px;
+    width: 30px;
+    height: 30px;
+  }
+
+  
+}
+/*--- 375px ---*/
+@media screen and (min-width: 375px){
+  .swiper {
+    top: 20px;
+    width: 400px;
+    height: 600px;
+  }
+
+  .section-1 .portfolio-card {
+    width: 300px;
+  }
+  .section-1 .image-container{
+    height: 500px;
+  }
+  .section-1 .inner-card{
+    top: 410px;
+    left: -10px;
+    width: 160px;
+  }
+  .section-1 .character-name{
+    font-size: 1.5rem;
+  }
+  .section-1 .about-character{
+    font-size: 0.9rem;
+  }
+
+  /* Card 1 */
+  .section-1 .info-card-1 .empty-space{
+    top: -10px;
+    right: -6px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-1,
+  .section-1 .info-card-2 .inner-card .empty-space-1,
+  .section-1 .info-card-3 .inner-card .empty-space-1{
+    top: 40px;
+    width: 70px;
+    height: 70px;
+  }
+}
+/*--- 425px ----*/
+@media screen and (min-width: 425px){
+  .swiper {
+    width: 450px;
+    height: 630px;
+  }
+
+  .section-1 .portfolio-card {
+    width: 340px;
+  }
+  .section-1 .image-container{
+    height: 540px;
+  }
+  .section-1 .inner-card{
+    top: 450px;
+    left: -10px;
+    width: 200px;
+  }
+  .section-1 .character-name{
+    font-size: 1.5rem;
+  }
+  .section-1 .about-character{
+    font-size: 0.9rem;
+  }
+
+  /* Card 1 */
+  .section-1 .info-card-1 .empty-space{
+    top: -10px;
+    right: -6px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-1,
+  .section-1 .info-card-2 .inner-card .empty-space-1,
+  .section-1 .info-card-3 .inner-card .empty-space-1{
+    top: 40px;
+    width: 70px;
+    height: 70px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-2,
+  .section-1 .info-card-2 .inner-card .empty-space-2,
+  .section-1 .info-card-3 .inner-card .empty-space-2{
+    top: 6px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+  }
+}
+/*--- 768px ----*/
+@media screen and (min-width: 768px){
+  .swiper {
+    top: 50px;
+    width: 500px;
+    height: 700px;
+  }
+
+  .section-1 .portfolio-card {
+    width: 400px;
+  }
+  .section-1 .image-container{
+    height: 600px;
+  }
+  .section-1 .inner-card{
+    top: 510px;
+    left: -10px;
+    width: 200px;
+  }
+  .section-1 .character-name{
+    font-size: 1.5rem;
+  }
+  .section-1 .about-character{
+    font-size: 0.9rem;
+  }
+
+  /* Card 1 */
+  .section-1 .info-card-1 .empty-space{
+    top: -10px;
+    right: -6px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-1,
+  .section-1 .info-card-2 .inner-card .empty-space-1,
+  .section-1 .info-card-3 .inner-card .empty-space-1{
+    top: 40px;
+    width: 70px;
+    height: 70px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-2,
+  .section-1 .info-card-2 .inner-card .empty-space-2,
+  .section-1 .info-card-3 .inner-card .empty-space-2{
+    top: 6px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+  }
+}
+/*--- 1440px ----*/
+@media screen and (min-width: 1440px){
+  .swiper {
+    top: 50px;
+    width: 600px;
+    height: 800px;
+  }
+
+  .section-1 .portfolio-card {
+    width: 400px;
+  }
+  .section-1 .image-container{
+    height: 600px;
+  }
+  .section-1 .inner-card{
+    top: 510px;
+    left: -10px;
+    width: 200px;
+  }
+  .section-1 .character-name{
+    font-size: 1.5rem;
+  }
+  .section-1 .about-character{
+    font-size: 0.9rem;
+  }
+
+  /* Card 1 */
+  .section-1 .info-card-1 .empty-space{
+    top: -10px;
+    right: -6px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-1,
+  .section-1 .info-card-2 .inner-card .empty-space-1,
+  .section-1 .info-card-3 .inner-card .empty-space-1{
+    top: 40px;
+    width: 70px;
+    height: 70px;
+  }
+  .section-1 .info-card-1 .inner-card .empty-space-2,
+  .section-1 .info-card-2 .inner-card .empty-space-2,
+  .section-1 .info-card-3 .inner-card .empty-space-2{
+    top: 6px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+/*============ Section 2 =================*/
+.section-2 {
+  position: relative;
+  top: 100vh;
+  width: 100vw;
+  min-height: 50vh;
+  padding: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center;
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(44, 41, 41, 0.452);
+}
+.section-2 .header{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #fff;                                      
+  font-family: 'Anime Ace', sans-serif;                                          
+  font-size: 3rem;
+}
+.section-2 .chapter-card{
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  width: 600px;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: center;
+  border-radius: 25px;
+  background-color: #000; /* Background color instead of image */
+  color: white;
+  padding: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+  border: 2px solid transparent; /* Initially no border */
+  transition: all 0.5s ease;
+}
+.section-2 .chapter-card:hover{
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.section-2 .card-image {
+  position: relative;
+  width: 400px; /* Adjust the image size */
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px; /* Optional: round the image corners */
+  margin-right: 20px; /* Space between image and content */
+  transition: all 0.5s ease;
+}
+.section-2 .card-image:hover{
+  border-radius: 0;
+}
+
+.section-2 .chapter-card .card-content{
+  position: relative;
+  transition: all 0.5s ease;
+}
+.section-2 .chapter-card .card-content .title{
+  position: relative;
+  font-size: 1.5rem;
+  font-family: 'Comic Sans MS',sans-serif;
+  transition: all 0.5s ease;
+}
+.section-2 .chapter-card .card-content .description{
+  position: relative;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-family:'Courier New', Courier, monospace;
+  transition: all 0.5s ease;
+}
+.section-2 .chap-card-1{
+  margin-left: -20%;
+  transition: all 0.5s ease;
+}
+.section-2 .chap-card-2{
+  margin-left: 50%;
+  transition: all 0.5s ease;
+}
+.section-2 .chap-card-3{
+  margin-left: -20%;
+  transition: all 0.5s ease;
+}
+
+/*--- 320px ----*/
+@media screen and (min-width: 320px){
+  .section-2 .header{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;     
+    transition: all 0.5s ease;                                   
+  }  
+  .section-2 .chapter-card{
+    width: 270px;
+    flex-direction: column;
+  }
+  .section-2 .card-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 270px;
+    height: 200px;
+  }
+  .section-2 .chapter-card .card-content .title{
+    margin-top: 15px;
+  }
+
+  .section-2 .chap-card-1{
+    margin-left: 0;
+  }
+  .section-2 .chap-card-2{
+    margin-left: 0;
+  }
+  .section-2 .chap-card-3{
+    margin-left: 0;
+  }
+}
+/*--- 375px ----*/
+@media screen and (min-width: 375px){
+  .section-2 .header{
+    font-size: 2.2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;                                     
+  } 
+  .section-2 .chapter-card{
+    width: 300px;
+    flex-direction: column;
+  }
+  .section-2 .card-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 230px;
+  }
+  .section-2 .chapter-card .card-content .title{
+    margin-top: 15px;
+  }
+
+  .section-2 .chap-card-1{
+    margin-left: 0;
+  }
+  .section-2 .chap-card-2{
+    margin-left: 0;
+  }
+  .section-2 .chap-card-3{
+    margin-left: 0;
+  }
+}
+/*--- 425px ----*/
+@media screen and (min-width: 425px){
+  .section-2 .header{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 30px;                                     
+  } 
+  .section-2 .chapter-card{
+    width: 350px;
+    flex-direction: column;
+  }
+  .section-2 .card-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 330px;
+    height: 230px;
+  }
+  .section-2 .chapter-card .card-content .title{
+    margin-top: 15px;
+  }
+
+  .section-2 .chap-card-1{
+    margin-left: 0;
+  }
+  .section-2 .chap-card-2{
+    margin-left: 0;
+  }
+  .section-2 .chap-card-3{
+    margin-left: 0;
+  }
+}
+/*--- 768px ----*/
+@media screen and (min-width: 768px){
+  .section-2 .header{
+    font-size: 3em;
+    margin-top: 30px;
+    margin-bottom: 50px;                                     
+  } 
+  .section-2 .chapter-card{
+    width: 500px;
+    flex-direction: row;
+  }
+  .section-2 .card-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 220px;
+    width: 400px;
+  }
+  .section-2 .chapter-card .card-content{
+    margin-left: 20px;
+    width: 100%;
+  }
+  .section-2 .chapter-card .card-content .title{
+    font-size: 1.6rem;
+    margin-top: 15px;
+  }
+  .section-2 .chapter-card .card-content .description{
+    font-size: 17px;
+  }
+
+  .section-2 .chap-card-1{
+    margin-left: -20%;
+  }
+  .section-2 .chap-card-2{
+    margin-left: 20%;
+  }
+  .section-2 .chap-card-3{
+    margin-left: -20%;
+  }
+}
+/*--- 1024px ----*/
+@media screen and (min-width: 1024px){
+  .section-2 .chapter-card{
+    width: 600px;
+    flex-direction: row;
+  }
+  .section-2 .card-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 250px;
+    width: 450px;
+  }
+  .section-2 .chapter-card .card-content{
+    margin-left: 20px;
+    width: 95%;
+  }
+  .section-2 .chapter-card .card-content .title{
+    margin-top: 15px;
+  }
+
+  .section-2 .chap-card-1{
+    margin-left: -30%;
+  }
+  .section-2 .chap-card-2{
+    margin-left: 30%;
+  }
+  .section-2 .chap-card-3{
+    margin-left: -30%;
+  }
+}
+/*--- 1440px ----*/
+@media screen and (min-width: 1440px){
+  .section-2 .chapter-card{
+    width: 700px;
+    flex-direction: row;
+  }
+  .section-2 .card-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+    width: 500px;
+  }
+  .section-2 .chapter-card .card-content{
+    margin-left: 20px;
+    width: 90%;
+  }
+  .section-2 .chapter-card .card-content .title{
+    margin-top: 15px;
+  }
+
+  .section-2 .chap-card-1{
+    margin-left: -40%;
+  }
+  .section-2 .chap-card-2{
+    margin-left: 40%;
+  }
+  .section-2 .chap-card-3{
+    margin-left: -40%;
+  }
+}
+
+
+
+/*================== Footer  ==================*/
+footer{
+  position: relative;
+  top: 100vh;
+  bottom: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
