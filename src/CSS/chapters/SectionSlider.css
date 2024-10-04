@@ -1,0 +1,81 @@
+/* Slider container */
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Max width to control large screens */
+  margin: 0 auto; /* Center container */
+}
+
+.slider-button {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  width: 50px;  /* Default button width */
+  height: 50px; /* Default button height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; /* Default arrow size */
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-button:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
+.prev-button {
+  left: 10px; /* Adjust left position */
+}
+
+.next-button {
+  right: 10px; /* Adjust right position */
+}
+
+.image-slider {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+  
+
+  @media (max-width: 768px) {
+    .slider-button {
+      width: 40px;  /* Smaller button width */
+      height: 40px; /* Smaller button height */
+      font-size: 20px; /* Smaller arrow size */
+    }
+  
+    .slider-image {
+      max-width: 100%;
+      max-height: 300px; /* Adjust the max height for smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .slider-button {
+      width: 35px;  /* Even smaller button width for mobile */
+      height: 35px; /* Smaller button height */
+      font-size: 18px; /* Smaller arrow size */
+    }
+  
+    .slider-image {
+      max-width: 100%;
+      max-height: 250px; /* Further reduce the image height for mobile */
+    }
+  }

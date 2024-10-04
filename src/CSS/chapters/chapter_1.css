@@ -1,3 +1,71 @@
-h1{
-    color: #fff;
+.chapter-1-section {
+  position: relative;
 }
+
+.chapter-1-section .bg-image{
+  position: fixed;
+}
+.chapter-1-section .bg-image img{
+  position: relative;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.chapter-1-section .chapter{
+    position:relative;
+    z-index: 2;
+     width: 100vw;
+    min-height: 100vh;
+    height: 90vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(29, 31, 28, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  
+  }
+  
+.chapter-1-section .header1 {
+    position: relative;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: 'Anime Ace', sans-serif;
+    font-size: 3rem; /* Default size for larger screens */
+    text-align: center; /* Center the text */
+  }
+  
+.chapter-1-section .header1 {
+    position: relative;
+    margin: 30px 0; /* Set top and bottom margin initially */
+    color: #fff;
+    font-family: 'Anime Ace', sans-serif;
+    font-size: 3rem; /* Default size for larger screens */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Media query for smaller screens */
+
+
+  @media (max-width: 768px) {
+    .chapter-1-section .header1 {
+      font-size: 2.1rem; /* Adjust font size for tablets */
+      margin: 30px 0; /* Adjust top and bottom margins */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chapter-1-section .header1 {
+      font-size: 2rem; /* Further adjust for mobile devices */
+      margin: 10px 0; /* Reduce margin for mobile */
+    }
+  }
+  
+  
