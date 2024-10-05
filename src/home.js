@@ -15,6 +15,7 @@ import audio1 from './Files/home/characterInfo/audio1.mp3';
 import audio2 from './Files/home/characterInfo/audio2.mp3';
 import audio3 from './Files/home/characterInfo/audio3.mp3';
 import NavBar from './nav';
+import Footer from './Footer';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -179,11 +180,8 @@ const Home = () => {
 
 
         {/* ========= Section 3 Footer ========================= */}
-        <footer>
-scsc
-        </footer>
 
-
+        <Footer/>
         </>
     );
 };
