@@ -419,6 +419,7 @@
 /* Robo icon */
 .navbar .btn-container .robo-icon{
     position: relative;
+    left: 50%;
     top: 6px;
     transition: all 0.5s ease;
 }
@@ -429,7 +430,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -438,8 +438,8 @@
 }
 
 .popup-overlay .popup-content {
-  background-color: white;
-  border-radius: 8px;
+  background-color: #fff;
+  border-radius: 15px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   width: 300px; /* Adjust width as necessary */
@@ -458,11 +458,13 @@
 }
 
 .popup-overlay .popup-content button {
-  background-color: #007bff; /* Example button color */
+  background-color: #007bff;
   color: white;
+  font-size: 15px;
+  font-weight: 550;
   border: none;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s ease;
 }
@@ -567,3 +569,5 @@
     top: 4px;
   }
 }
+
+

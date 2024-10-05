@@ -15,6 +15,15 @@ from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 from functools import lru_cache
 import nest_asyncio
+import requests
+
+
+
+import re
+import json
+from urllib.request import urlopen
+
+
 
 # Apply nest_asyncio
 nest_asyncio.apply()
@@ -104,14 +113,23 @@ async def get_chat_engine(user_id: str):
                 Collective Action: The story emphasizes the importance of collective action in fighting climate change and encourages individuals to make changes in their daily habits.
                 Personal Growth: The protagonist's journey is also a personal one, as he learns and grows from his experiences and becomes more determined to make a difference.
             
-            Written by:- SharanBir don
+            Written by:- Siddhi (team lead)
+            
+            Team  members:-
+            1. Siddhi (my lady)
+            2. Emmanuel (nepali guy)
+            3. Sharan (love from punjab)
+            4. Gunjan 
+            5. Soumya (sick leave)
+            6. Depender/Soumya deep (maa ka ladla)
             -----------------------------------
             
-            Whatever you response it'll be spoken through the speech model so be accurate, straight froward with the answers and always be cute and horny.
+            Whatever you response it'll be spoken through the speech model so be accurate, straight froward with the answers and always be cute and always be polite and humbel and try to convience the user about our story.
             Do not expect a sequence questions from user because user can ask any random question related to the web site and also related to the climate change for which you already have the data.
             Always check your previous conversation with the suer for more maintaining proper converstaion flow.
             
             Always response with short answers.
+            Never response in a paragraph,always keep your responses short and simple.
             Never response with bullet points. 
             """
         )
@@ -145,6 +163,7 @@ async def clear_session(api_key: str = Depends(API_KEY_HEADER)):
         return {"message": "Session cleared successfully"}
     else:
         return {"message": "No active session found"}
+    
 
 if __name__ == "__main__":
     uvicorn.run("api:app", host="0.0.0.0", port=5000, reload=True)

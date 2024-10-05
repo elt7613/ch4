@@ -16,6 +16,7 @@ import audio2 from './Files/home/characterInfo/audio2.mp3';
 import audio3 from './Files/home/characterInfo/audio3.mp3';
 import NavBar from './nav';
 import Footer from './Footer';
+import AirQualityCard from './components/airQualityCard';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -66,9 +67,13 @@ const Home = () => {
       navigate("/chapter-1");
     }
 
+
     return (
         <>
         <NavBar/>
+       <section className='air-qualiyty'>
+       </section>
+       
         <section className='section-1' onClick={handleUserInteraction} onTouchStart={handleUserInteraction}>
         <Swiper
           effect={'cards'}
@@ -134,7 +139,6 @@ const Home = () => {
             </div>
             </SwiperSlide>
         </Swiper>
-
         </section>
 
 
@@ -147,7 +151,7 @@ const Home = () => {
           <div className="chapter-card chap-card-1" onClick={redirectChapter1}>
             <img src={poster} alt="Image 1" className="card-image" />
             <div className="card-content">
-              <h2 className='title'>Deforestation</h2>
+              <h2 className='title'>Chapter 1</h2>
               <p className='description'>Description for card 1 goes here.
                 Description for card 1 goes here.sjnc fe dudoo wdwdj ddud wdqwud d
                 Description for card 1 goes here.wkdjqpdu qqjp uhqoifj  
@@ -158,7 +162,7 @@ const Home = () => {
           <div className="chapter-card chap-card-2">
             <img src={poster2} alt="Image 1" className="card-image" />
             <div className="card-content">
-              <h2 className='title'>Afforestation</h2>
+              <h2 className='title'>Chapter 2</h2>
               <p className='description'>Description for card 1 goes here.
                 Description for card 1 goes here.sjnc fe dudoo wdwdj ddud wdqwud d
                 Description for card 1 goes here.wkdjqpdu qqjp uhqoifj  

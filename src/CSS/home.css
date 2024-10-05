@@ -755,6 +755,12 @@ a{
 }
 
 
+/*=========== Air Quality ====================*/
+.air-qualiyty{
+  position: fixed;
+  z-index: 100;
+}
+
 
 /*================== Footer  ==================*/
 footer{
